@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #1da1f2;
+}
+
+#logo{
+    width: 80px;
+}
+
+.dream360{
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.dream360 span{
+    color:darkgreen;
+}
+
+#three{
+    width: 25px;
+}
+
+header .logo_name{
+    display: flex;
+    align-items: center;
+}
+
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background-color: #F3E8FF;
+    box-shadow: 0 5px 10px rgba(0,0,0,1);
+    padding: 0 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    border-radius: 10px;
+}
+
+.navbar{
+    padding-left: 150px;
+}
+
+header .navbar ul{
+    list-style: none;
+}
+
+header .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+header .navbar ul li a{
+    font-size: 20px;
+    padding: 20px;
+    color: #2D2727;
+    display: block;
+}
+ 
+header .navbar ul li a:hover{
+    background-color: #3F979B;
+    color: white;
+    border-radius: 4px;
+}
+
+header .navbar ul .course ul li a{
+    font-size: 15px;
+    padding: 10px 10px;
+}
+
+header .navbar ul li ul{
+    
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background-color:#F3E8FF ;
+    display: none;
+}
+
+/* header .navbar ul .course ul .short-term{
+    position: absolute;
+    left: 0;
+    width: 650px;
+    background-color:#F3E8FF ;
+    display: none;
+} */
+ 
+header .navbar ul li ul li{
+    width: 100%;
+    border-bottom:5px solid #2d104c ;
+    border-radius: 9px;
+}
+
+header .navbar ul li ul li ul{
+    left:200px ;
+    top: 0;
+
+}
+
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul{
+    display: initial;
+}
+
+header .navbar ul .college ul li a{
+    font-size: 15px;
+}
+
+/* header .navbar ul .course ul li a
+
+header .navbar ul .college ul li a */
